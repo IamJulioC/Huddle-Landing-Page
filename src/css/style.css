@@ -57,9 +57,10 @@ body{
     font-family: 'Poppins',sans-serif;
     text-decoration: none;
     background-color: #fff;
+    color: hsl(257, 40%, 49%);
     padding: 12px 50px;
     border-radius: 25px;
-    box-shadow: 0 8px 18px rgba(0, 0, 0, .8); 
+    box-shadow: 0 4px 5px rgba(0, 0, 0, 0.432); 
     transition: all .5s ease;  
 }
 
@@ -109,33 +110,3 @@ body{
 .social-media a i:hover::after{
     border-color: hsl(300, 69%, 71%);
 }
-
-
-/*Responsivo*/
-@media only screen and (max-width: 1440px){
-    .hero-img img{
-        width: 100%;
-    }
-}
-
-@media only screen and (max-width: 768px){
-    .main{
-        flex-direction: column;
-        text-align: center;
-    }
-
-    .hero-text{
-        font-size: 26px;
-    }
-
-    .social-media{
-        text-align: center;
-        margin-top: 50px;
-        padding-bottom: 30px;
-    }
-
-    .hero-text a{
-        padding: 10px 70px;
-    }
-}
-
